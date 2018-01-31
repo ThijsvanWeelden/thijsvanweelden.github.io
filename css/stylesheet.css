@@ -2,9 +2,7 @@
     margin: 0 auto;
     padding: 0 auto;
 
-}
-.personal{
-    width: 200px;
+  
 }
 main{
     max-width: 100%;
@@ -43,4 +41,18 @@ li a:hover {
 p {
     padding: 35px;
     padding-left: 0px;
+}
+.personal{
+    width: 200px;
+    display: none;
+
+}
+@media screen and (max-width: 640px) {
+
+    #groepsfoto{
+        max-width: 200px;
+
+
+        
+    }
 }
